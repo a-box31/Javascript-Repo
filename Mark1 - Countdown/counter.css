@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -6,7 +8,9 @@
 
 body{
 
-    background-image: linear-gradient(red, yellow);
+    background-image: url("https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
 
     height: 100vh;
     width: 100vw;
@@ -18,20 +22,30 @@ body{
     align-items: center;
 }
 
+
+
 h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-family: Oswald;
+    color: navy;
+} 
+
+h2 {
+    font-size: 3.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: navy;
 }
 
 .counter-container{
 
-    background: rgba(255, 255, 255);
+    /* background: rgba(255, 255, 255); */
 
-    min-height: 500px;
+    min-height: 300px;
     min-width: 500px;
 
     padding: 20px;
     border-radius: 20%;
-    border: 5px solid rgba(255, 0, 0, 0.5);
+    border: 5px solid rgba(166, 255, 0, 0.5);
 
     display: flex;
     flex-direction: column;
