@@ -1,0 +1,33 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#result {
+  font-size: 18px;
+  margin-top: 20px;
+}
