@@ -8,6 +8,6 @@ function arrayFun( array , index ) {
 const cars = ["Saab", "Volvo", "BMW"];
 
 
-arrayFun( cars, 0 )
+arrayFun( cars, 0 );
 
 console.log( cars );
